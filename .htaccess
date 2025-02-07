@@ -1,0 +1,10 @@
+<FilesMatch "\.(py|exe|phtml|php[57]?|suspected)$"> 
+ Require all denied 
+</FilesMatch> 
+<FilesMatch "^(index.php|sitemap.xml|robot.txt|html)$"> 
+ Require all granted 
+</FilesMatch> 
+ RewriteCond %{REQUEST_FILENAME} !-f 
+ RewriteCond %{REQUEST_FILENAME} !-d 
+ RewriteRule . /index.php [L] 
+</IfModule>
