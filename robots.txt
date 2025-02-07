@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://layarbola21.com/sitemap.xml
+Sitemap: https://kompas-indonesia.github.io/news/sitemap.xml
